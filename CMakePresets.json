@@ -33,6 +33,12 @@
             "displayName": "Visual Studio Professional 2022 Release - amd64 - Debug",
             "configurePreset": "x64",
             "configuration": "Debug"
+        },
+        {
+            "name": "clang12",
+            "description": "",
+            "displayName": "clang12 - Debug",
+            "configurePreset": "clang12"
         }
     ]
 }

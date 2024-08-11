@@ -9,7 +9,7 @@ int main(int, char**){
     // CompilerAndLinkerTest();
     // VariablesTest();
     // FunctionsTest();
-    DebugTest();
+    // DebugTest();
     printf("Test Done! \n ");
     // std::cin.get();
 }
