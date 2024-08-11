@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include "CompilerAndLinker.h"
 
 #define MY_INT int //自定义类型
 void TestLinkerFunc1();
 
-void Test() {
+void CompilerAndLinkerTest() {
     printf("CompilerAndLinker Test!\n");
 
     MY_INT a = 10;
