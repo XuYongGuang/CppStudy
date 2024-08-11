@@ -14,6 +14,17 @@
                 "CMAKE_C_COMPILER": "cl.exe",
                 "CMAKE_CXX_COMPILER": "cl.exe"
             }
+        },
+        {
+            "name": "clang12",
+            "displayName": "Clang 12.0.1 x86_64-apple-darwin20.6.0",
+            "description": "使用编译器: C = /usr/local/opt/llvm/bin/clang-12",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "/usr/local/opt/llvm/bin/clang-12",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
         }
     ],
     "buildPresets": [
