@@ -3,11 +3,12 @@
 // #include "CompilerAndLinker/CompilerAndLinker.h"
 // #include "Variables/Variables.h"
 // #include "Functions/Functions.h"
-// #include "Debug/Debug.h"
+// // #include "Debug/Debug.h"
 // #include "Reference/Reference.h"
 // #include "ClassAndStruct/ClassAndStruct.h"
 #include "Static/Static.h"
 
+#include "Pointers/Pointers.h"
 
 int main(int, char**){
     // CompilerAndLinkerTest();
@@ -19,6 +20,7 @@ int main(int, char**){
     StaticTest(); printf("main s_var = %d \n", s_var);
 
 
+    PointersTest();
     printf("Test Done! \n ");
     // std::cin.get();
 }
