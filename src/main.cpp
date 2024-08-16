@@ -3,11 +3,12 @@
 // #include "CompilerAndLinker/CompilerAndLinker.h"
 // #include "Variables/Variables.h"
 // #include "Functions/Functions.h"
-// // #include "Debug/Debug.h"
+// #include "Debug/Debug.h"
+// #include "Pointers/Pointers.h"
 // #include "Reference/Reference.h"
 // #include "ClassAndStruct/ClassAndStruct.h"
 // #include "Static/Static.h"
-// #include "Pointers/Pointers.h"
+#include "Enum/Enum.h"
 
 int main(int, char**){
     // CompilerAndLinkerTest();
@@ -17,9 +18,8 @@ int main(int, char**){
     // PointersTest();
     // ReferenceTest();
     // ClassAndStructTest();
-    // StaticTest(); printf("main s_var = %d \n", s_var);
-
-
+    // StaticTest(); //printf("main s_var = %d \n", s_var);
+    EnumTest();
     printf("Test Done! \n ");
     // std::cin.get();
 }
