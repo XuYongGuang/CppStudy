@@ -19,7 +19,11 @@
 // #include "Const/Const.h"
 // #include "InitializerList/InitializerList.h"
 // #include "CreateInstance/CreateInstance.h"
-#include "New/New.h"
+// #include "New/New.h"
+// #include "Conversion/Conversion.h"
+// #include "OperatorOverride/OperatorOverride.h"
+#include "This/This.h"
+
 
 int main(int, char**){
     // CompilerAndLinkerTest();
@@ -41,7 +45,10 @@ int main(int, char**){
     // ConstTest();
     // InitializerListTest();
     // CreateInstanceTest();
-    NewTest();
+    // NewTest();
+    // ConversionTest();
+    // OperatorOverrideTest();
+    ThisTest();
 
     printf("Test Done! \n ");
     // std::cin.get();
