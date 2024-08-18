@@ -47,9 +47,10 @@
         "xloctime": "cpp",
         "xmemory": "cpp",
         "xstring": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "string": "cpp"
     },
-    "cmake.outputLogEncoding": "gbk",
+    "cmake.outputLogEncoding": "UTF8",
     "marscode.chatLanguage": "cn",
     "marscode.codeCompletionPro": {
         "enableCodeCompletionPro": true

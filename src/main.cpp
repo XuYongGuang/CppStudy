@@ -8,7 +8,18 @@
 // #include "Reference/Reference.h"
 // #include "ClassAndStruct/ClassAndStruct.h"
 // #include "Static/Static.h"
-#include "Enum/Enum.h"
+// #include "Enum/Enum.h"
+// #include "Constructors/Constructors.h"
+// #include "Destructors/Destructors.h"
+// #include "Inheritance/Inheritance.h"
+// #include "VirtualFunctions/VirtualFunctions.h"
+// #include "Visibility/Visibility.h"
+// #include "Arrays/Arrays.h"
+// #include "String/String.h"
+// #include "Const/Const.h"
+// #include "InitializerList/InitializerList.h"
+// #include "CreateInstance/CreateInstance.h"
+#include "New/New.h"
 
 int main(int, char**){
     // CompilerAndLinkerTest();
@@ -19,7 +30,19 @@ int main(int, char**){
     // ReferenceTest();
     // ClassAndStructTest();
     // StaticTest(); //printf("main s_var = %d \n", s_var);
-    EnumTest();
+    // EnumTest();
+    // ConstructorsTest();
+    // DestructorsTest();
+    // InheritanceTest();
+    // VirtualFunctionsTest();
+    // VisibilityTest();^
+    // ArraysTest();
+    // StringTest();
+    // ConstTest();
+    // InitializerListTest();
+    // CreateInstanceTest();
+    NewTest();
+
     printf("Test Done! \n ");
     // std::cin.get();
 }
